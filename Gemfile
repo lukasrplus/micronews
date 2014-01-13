@@ -6,7 +6,7 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 gem 'sqlite3'
-gem 'rspec-rails', '2.9.0'
+gem 'rspec-rails'
 end
 
 
@@ -29,7 +29,7 @@ end
 gem 'jquery-rails'
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara'
 end
 
 
